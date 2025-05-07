@@ -1,0 +1,144 @@
+body {
+  font-family: 'Arial Rounded MT Bold', sans-serif;
+  background: white;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 400px;
+  margin: auto;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 12px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.calendar {
+  background: black;
+  color: white;
+  padding: 1rem;
+  border-radius: 12px;
+  margin: 1rem 0;
+}
+
+.calendar .month {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.days span {
+  margin: 0.3rem;
+}
+
+.active {
+  background: blue;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 50%;
+}
+
+.signout {
+  font-style: italic;
+  text-decoration: underline;
+  color: black;
+}
+
+.user-tag {
+  background: #6b5bfb;
+  color: white;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  border-radius: 16px;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.title {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2rem;
+  background: linear-gradient(to right, blue, orange);
+  color: black;
+  padding: 0.5rem;
+  border-radius: 10px;
+  margin: 1rem 0;
+}
+
+.clock-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.label {
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+.time-display {
+  background: #7c7c7c;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.begin {
+  background: #4b34ec;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+}
+
+.end {
+  background: #b02929;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+}
+
+.summary {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.total {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.log {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0.8rem;
+  background: white;
+}
+
+.red {
+  color: red;
+  font-weight: bold;
+}
+
+.black {
+  color: black;
+  font-size: 1rem;
+}
